@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.box {
+  border: 2px solid black;
+  margin: auto;
+  width: 50%;
+  background-color: hsl(0, 0%, 90%);
+  padding: 10px;
+  transition: background-color 300ms;
+}
+.rgb {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.rgbToHex {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+.cards {
+  float: left;
+  margin: auto;
+  padding: 75px;
+}
+
+.cards #cardLogo {
+  float: right;
+}
